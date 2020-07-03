@@ -1,0 +1,28 @@
+<section>
+    <header>
+      <h2>CIELO</h2>
+    </header>
+    <div >
+      <div>
+        <img src="assets/images/icon_transacao.png" alt="" />
+      </div>
+      <div >
+        <h4 *ngIf="errorTitle">{{ errorTitle }}</h4>
+        <ng-template [ngIf]="errorStatus && errorStatus === 400" [ngIfElse]="otherStatusCodeTemplete">
+          <div>
+            <p >A aplicação não retornou dados</p>
+            <p >CODIGO ERRO</p>
+          </div>
+        </ng-template>
+        <ng-template #otherStatusCodeTemplete>
+          <p >Status do erro: {{ errorStatus }}</p>
+        </ng-template>
+        <strong>Detalhe do erro:</strong>
+        <p *ngIf="message">{{ message }}</p>
+      </div>
+      <div >
+        <button type="button" (click)="closeModal()">FECHAR</button>
+      </div>
+    </div>
+  </section>
+  

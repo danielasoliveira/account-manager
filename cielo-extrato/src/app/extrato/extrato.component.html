@@ -1,0 +1,25 @@
+<div>
+    <h1>
+      Acesso ao dados <br />
+      Financeiros
+    </h1>
+    <ul>
+      <li
+        [routerLinkActive]="['menu__list-options__item--active']"
+        [routerLink]="['summary']"
+      >
+        <a>Resumo</a>
+      </li>
+      <li
+        [routerLinkActive]="['menu__list-options__item--active']"
+        [routerLink]="['consult-extract-data']"
+      >
+        <a
+          >Consulta de <br />
+          extrato</a
+        >
+      </li>
+    </ul>
+  </div>
+  
+  <router-outlet></router-outlet>
