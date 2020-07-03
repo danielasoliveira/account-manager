@@ -1,0 +1,106 @@
+{
+	"totalControleLancamento": {
+		"quantidadeLancamentos": 4,
+		"quantidadeRemessas": 4,
+		"valorLancamentos": 47583.2
+	},
+	"listaControleLancamento": [
+	  {
+		"lancamentoContaCorrenteCliente": {
+		  "numeroRemessaBanco": 64320236054,
+		  "nomeSituacaoRemessa": "Pago",
+		  "dadosDomicilioBancario": {
+			"codigoBanco": 123,
+			"numeroAgencia": 1,
+			"numeroContaCorrente": "00000000065470"
+		  },
+		  "nomeTipoOperacao": "regular"
+		},
+		"dataEfetivaLancamento": "03/06/2016",
+		"dataLancamentoContaCorrenteCliente": "03/06/2016",
+		"numeroEvento": 42236790,
+		"descricaoGrupoPagamento": "LA-56",
+		"codigoIdentificadorUnico": "1",
+		"nomeBanco": "BANCO ABCD S.A.             ",
+		"quantidadeLancamentoRemessa": 22,
+		"numeroRaizCNPJ": "12996721",
+		"numeroSufixoCNPJ": "1597",
+		"valorLancamentoRemessa": 11499.1,
+		"dateLancamentoContaCorrenteCliente": 1464922800000,
+		"dateEfetivaLancamento": 1464922800000
+	  },{
+	  "lancamentoContaCorrenteCliente": {
+		  "numeroRemessaBanco": 64320236054,
+		  "nomeSituacaoRemessa": "Pago",
+		  "dadosDomicilioBancario": {
+			"codigoBanco": 1,
+			"numeroAgencia": 2,
+			"numeroContaCorrente": "00000000012345"
+		  },
+		  "nomeTipoOperacao": "regular"
+		},
+		"dataEfetivaLancamento": "05/06/2020",
+		"dataLancamentoContaCorrenteCliente": "05/06/2020",
+		"numeroEvento": 96547821,
+		"descricaoGrupoPagamento": "LA-56",
+		"codigoIdentificadorUnico": "1",
+		"nomeBanco": "BANCO DO BRASIL S.A.             ",
+		"quantidadeLancamentoRemessa": 4,
+		"numeroRaizCNPJ": "12300078",
+		"numeroSufixoCNPJ": "8702",
+		"valorLancamentoRemessa": 3000,
+		"dateLancamentoContaCorrenteCliente": 1591374036,
+		"dateEfetivaLancamento": 1591374036
+	  },{
+	  "lancamentoContaCorrenteCliente": {
+		  "numeroRemessaBanco": 98745632187,
+		  "nomeSituacaoRemessa": "Pago",
+		  "dadosDomicilioBancario": {
+			"codigoBanco": 341 ,
+			"numeroAgencia": 85748,
+			"numeroContaCorrente": "00000078456998"
+		  },
+		  "nomeTipoOperacao": "regular"
+		},
+		"dataEfetivaLancamento": "25/06/2020",
+		"dataLancamentoContaCorrenteCliente": "25/06/2020",
+		"numeroEvento": 87965478,
+		"descricaoGrupoPagamento": "LA-85",
+		"codigoIdentificadorUnico": "1",
+		"nomeBanco": "BANCO ITAU S.A.             ",
+		"quantidadeLancamentoRemessa": 4,
+		"numeroRaizCNPJ": "74123698",
+		"numeroSufixoCNPJ": "7854",
+		"valorLancamentoRemessa": 24587.1,
+		"dateLancamentoContaCorrenteCliente": 1593102036,
+		"dateEfetivaLancamento": 1593102036
+	  },
+	  {
+		"lancamentoContaCorrenteCliente": {
+		  "numeroRemessaBanco": 12345678915,
+		  "nomeSituacaoRemessa": "Pago",
+		  "dadosDomicilioBancario": {
+			"codigoBanco": 33,
+			"numeroAgencia": 2587,
+			"numeroContaCorrente": "0000000008244"
+		  },
+		  "nomeTipoOperacao": "regular"
+		},
+		"dataEfetivaLancamento": "30/06/2020",
+		"dataLancamentoContaCorrenteCliente": "30/06/2020",
+		"numeroEvento": 42592397,
+		"descricaoGrupoPagamento": "LA-56",
+		"codigoIdentificadorUnico": "25",
+		"nomeBanco": "BANCO SANTANDER (BRASIL) S.A.             ",
+		"quantidadeLancamentoRemessa": 4,
+		"numeroRaizCNPJ": "85214796",
+		"numeroSufixoCNPJ": "1234",
+		"valorLancamentoRemessa": 8452,
+		"dateLancamentoContaCorrenteCliente": 1593620436,
+		"dateEfetivaLancamento": 1593620436
+	  }
+	],
+	"indice": 1,
+	"tamanhoPagina": 25,
+	"totalElements": 4
+}
