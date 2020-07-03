@@ -1,0 +1,49 @@
+<div >
+    <div>
+      <div>
+      </div>
+      <div>
+        <button (click)="clean()">Limpar</button>
+        <button (click)="filterCheckingAccount()">Pesquisar</button>
+      </div>
+    </div>
+    <ng-template [ngIf]="statementResponse && !noStatementInCurrentAccount">
+      <div >
+        <span>Saldo do período: </span
+        ><span>{{ statementResponse.totalControleLancamento.valorLancamentos }}</span>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th> Data do lançamento </th>
+            <th> Descrição</th>
+            <th> Número</th>
+            <th> Situação</th>
+            <th> Data de confirmação</th>
+            <th> Dados bancários</th>
+            <th> Valor final</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let current of statementResponse.listaControleLancamento">
+            <td>{{ current.dataEfetivaLancamento }}</td>
+            <td>{{ current.lancamentoContaCorrenteCliente.nomeTipoOperacao }}</td>
+            <td>{{ current.numeroEvento }}</td>
+            <td>{{ current.lancamentoContaCorrenteCliente.nomeSituacaoRemessa }}</td>
+            <td>{{ current.dateLancamentoContaCorrenteCliente }}</td>
+            <td> {{ current.nomeBanco }} Ag {{ current.lancamentoContaCorrenteCliente.dadosDomicilioBancario.numeroAgencia }} CC {{ current.lancamentoContaCorrenteCliente.dadosDomicilioBancario.numeroContaCorrente }}</td>
+            <td> R$ {{ current.valorLancamentoRemessa }}</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Saldo do dia</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>{{ statementResponse.totalControleLancamento.valorLancamentos }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </ng-template>
+  </div>

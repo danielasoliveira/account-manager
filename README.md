@@ -4,3 +4,5 @@ O projeto inclui o microserviço account que expõe uma api REST que devolve os 
 
 Para rodar o microserviço, é necessário realizar o import das dependencias usando o gradle.
 Para subir a camada de front-end é necessário instalar os pacotes do NPM e ter o angular cli instalado na maquina.
+
+O microserviço esta dentro da pasta account e o projeto web dentro da pasta cielo-extrato

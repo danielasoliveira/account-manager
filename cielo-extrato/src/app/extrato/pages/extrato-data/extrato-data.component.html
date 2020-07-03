@@ -1,0 +1,10 @@
+<div>
+    <div>
+        <h1
+            (click)="currentPage = 'checking-account'">Conta Corrente</h1>
+    </div>
+    <div></div>
+    <div>
+        <app-conta-corrente *ngIf="currentPage === 'checking-account'"></app-conta-corrente>
+    </div>
+</div>
